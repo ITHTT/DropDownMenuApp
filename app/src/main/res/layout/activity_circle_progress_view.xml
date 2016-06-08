@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal">
+        <com.htt.dropdownmenu.views.widgets.CircleProgressView
+            android:id="@+id/circle_progress"
+            android:layout_width="75dp"
+            android:layout_height="75dp" />
+        <com.htt.dropdownmenu.views.widgets.CircleProgressView
+            android:id="@+id/circle_progress01"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+</FrameLayout>
